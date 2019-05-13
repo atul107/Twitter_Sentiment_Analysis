@@ -1,6 +1,7 @@
-                                      #Kafka(For Ubuntu)
+                                                    # Kafka(For Ubuntu)
 
-**Prerequisite**
+## Prerequisite
+### 1. Java
 sudo apt update
 sudo apt install default-jdk
 Download and install kafka                
