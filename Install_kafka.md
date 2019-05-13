@@ -2,9 +2,9 @@
 
 ## Prerequisite
 ### 1. Java
-'''
+```
 sudo apt update
-'''
+```
 sudo apt install default-jdk
 Download and install kafka                
 wget https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.0/kafka_2.12-2.2.0.tgz 
