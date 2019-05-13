@@ -1,6 +1,6 @@
 # Kafka(For Ubuntu)
 
-## Prerequisite
+## A. Prerequisite
 ### 1. Java
 Install by running following commands
 ```
@@ -9,11 +9,17 @@ sudo apt update
 ```
 sudo apt install default-jdk
 ```
-Download and install kafka                
+## B. Installing Kafka
+Download and install kafka
+```
 wget https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.0/kafka_2.12-2.2.0.tgz 
+```
+```
 tar xzf kafka_2.12-1.0.1.tgz
+```
+```
 mv kafka_2.12-1.0.1 /usr/local/kafka
-
+```
 Starting kafka server
 cd /usr/local/kafka
 bin/zookeeper-server-start.sh config/zookeeper.properties
