@@ -1,4 +1,4 @@
-                                                    # Kafka(For Ubuntu)
+# Kafka(For Ubuntu)
 
 ## Prerequisite
 ### 1. Java
