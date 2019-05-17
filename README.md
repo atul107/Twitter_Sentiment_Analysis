@@ -4,6 +4,7 @@ Real time sentiment analysis in kafka using twitter's streaming api
 
 ## A. Prerequisite
 ### 1. Java
+#### Installing Java 
 Install by running following commands
 ```
 sudo apt update
@@ -11,7 +12,8 @@ sudo apt update
 ```
 sudo apt install default-jdk
 ```
-## B. Installing Kafka (Ubuntu)
+### Kafka
+#### B. Installing Kafka (Ubuntu)
 Download and install kafka
 ```
 wget https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.0/kafka_2.12-2.2.0.tgz 
@@ -47,4 +49,9 @@ Using kafka consumer
 ```
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic testTopic --from-beginning
 ```
+### Elasticsearch
+#### Running Elasticsearch
+
+### Kibana
+#### Running kibana
 
