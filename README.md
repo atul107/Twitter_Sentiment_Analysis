@@ -50,8 +50,8 @@ Using kafka consumer
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic testTopic --from-beginning
 ```
 ### Elasticsearch
-Download the latest version from https://www.elastic.co/downloads/
-Extract the downloaded file
+Download the latest version from https://www.elastic.co/downloads/ and 
+extract the downloaded file.
 #### Running Elasticsearch
 ```
 cd 'Extracted folder'
@@ -61,7 +61,13 @@ bin/elasticsearch
 ```
 
 ### Kibana
-Download the version compatible with the version of elasticsearch you have downloaded
+Download the version compatible with the version of elasticsearch you have downloaded and extract it.
 #### Running kibana
+```
+cd 'Extracted folder
+```
+```
+bin/kibana
+```
 
 
